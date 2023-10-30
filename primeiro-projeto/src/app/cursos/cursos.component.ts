@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class CursosComponent {
 
+  nomePortal: string;
+
+  constructor() {
+    this.nomePortal = 'http://loiane.training'; 
+  }
+
+  ngOnInit() {
+
+  }
 }
